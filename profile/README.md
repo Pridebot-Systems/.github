@@ -14,6 +14,7 @@ You can find Pridebot on discord and invite to any server [here](https://pridebo
 ### Socials:
 - BlueSky - https://bsky.app/profile/pridebot.xyz
 - Tiktok - https://www.tiktok.com/@pridebotdiscord
+- LinkedIn - https://www.linkedin.com/company/pridebot/
 
 ### Voting
 Help support Pridebot by voting here:
