@@ -71,7 +71,7 @@ Help support Pridebot by voting here:
 Copyright Sdriver1 2023-2025
     `;
 
-  fs.writeFileSync("README.md", readmeContent);
+  fs.writeFileSync("profile/README.md", readmeContent);
   console.log("README.md updated successfully");
 }
 
