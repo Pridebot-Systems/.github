@@ -63,6 +63,7 @@ Help support Pridebot by voting here:
 - Top.gg - https://top.gg/bot/1101256478632972369/vote
 - Botlist.me - https://botlist.me/bots/1101256478632972369/vote
 - Discords.com - https://discords.com/bots/bot/1101256478632972369/vote
+- Discordlist.gg - https://discordlist.gg/bot/1101256478632972369/vote
 
 ## Legal
 - https://pridebot.xyz/tos
