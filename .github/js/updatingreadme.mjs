@@ -9,9 +9,11 @@ const octokit = new Octokit({
 });
 
 function formatCount(count) {
-  return count >= 1000
-    ? (count / 1000).toFixed(1) + "k+"
-    : count.toLocaleString();
+  if (count >= 1000) {
+    return (count / 1000).toFixed(1) + "k+`";
+  } else if (count >= 1000000) {
+    return (count / 1000000).toFixed(1) + "M+";
+  }
 }
 
 async function getBotStats() {
@@ -52,6 +54,7 @@ You can find Pridebot on discord and invite to any server [here](https://pridebo
 ### Website:
 - https://pridebot.xyz
 - https://pfp.pridebot.xyz
+- https://profile.pridebot.xyz
 
 ### Socials:
 - BlueSky - https://bsky.app/profile/pridebot.xyz
