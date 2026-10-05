@@ -16,6 +16,8 @@ function formatCount(count) {
   }
 }
 
+const currentYear = new Date().getFullYear();
+
 async function getBotStats() {
   let stats = {
     currentGuildCount: 0,
@@ -24,7 +26,7 @@ async function getBotStats() {
   };
 
   try {
-    const prideresponse = await fetch("http://2.56.246.53:2610/stats");
+    const prideresponse = await fetch("http://api.pridebot.xyz/stats");
     const data = await prideresponse.json();
     Object.assign(stats, {
       currentGuildCount: formatCount(data.currentGuildCount),
@@ -72,7 +74,7 @@ Help support Pridebot by voting here:
 - https://pridebot.xyz/tos
 - https://pridebot.xyz/privacy
 
-Copyright Sdriver1 2023-2025
+Copyright Sdriver1 2023-${currentYear}
     `;
 
   fs.writeFileSync("profile/README.md", readmeContent);
